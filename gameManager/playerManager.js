@@ -81,11 +81,12 @@ let PlayerMoves = {
       }
     }
     //Initiates attacks
+    //Enemy attacks
     else if(getEnemySpeed > getPlayerSpeed) {
         let enemyAttackValues = enemyAttack(),
          totalDamage = enemyAttackValues[0] * enemyAttackValues[1];
          player.health = player.health - totalDamage;
-         alert("You hit " + enemyAttackValues[0] + " damage " + enemyAttackValues[1] + " times.");
+         alert("Enemy hit " + enemyAttackValues[0] + " damage " + enemyAttackValues[1] + " times.");
          if (player.health <= 0){
              alert("You lose! Refresh browser to play again.")
              getPlayerHealth.innerHTML = 'Health: 0';
