@@ -1,0 +1,69 @@
+/*Universal styles*/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: .8em;
+}
+
+/*Player styles*/
+.img-avatar{
+    width: 9.375em;
+    max-height: 9.375em;
+}
+.img-avatar-after{
+    width: 12.6em;
+    max-height: 10.9375em;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.playerChoice h2{
+    background-color: darkgoldenrod;
+    margin-top: 0;
+    
+}
+
+/* action section after player choice*/
+.actions {
+    border: 2px solid darkgoldenrod;
+    
+    background-color: grey;
+   
+}
+.actions h3{
+    
+    background-color: grey;
+   color: black;
+}
+
+/*arena section*/
+.arenaImage img{
+    width: 25em;
+    height: 12.5em;
+    margin: auto;
+}
+.arena{
+    visibility: hidden;
+    
+}
+
+/*enemy section*/
+.enemyChoice h2{
+    background-color: darkgoldenrod;
+    margin-top: 0;
+    
+}
